@@ -1,3 +1,6 @@
+/**
+ * its all about practise about dogs
+ */
 public class Dog {
     private String breed;
     private int age;
@@ -14,7 +17,9 @@ public class Dog {
     public void bark() {
         System.out.println("Barking Dog: Bow wow");
     }
-
+    /*
+    * function for overloading
+    */
     public void bark(int times) {
         for (int i = 0; i < times; i++) {
             bark();
@@ -33,3 +38,4 @@ public class Dog {
         dg.bark(3);
     }
 }
+/**/
