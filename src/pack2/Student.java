@@ -1,18 +1,24 @@
 package pack2;
 
-
 public class Student {
-    public  String name;
-    public  String address;
+    public String name;
+    public long roll_num;
     public String course;
     public int semester;
-    public int roll_num;
+    public String address;
 
-    public Student(String name, String address, String course, int semester, int roll_num) {
+    public Student(String name, long roll_num, String course, int semester, String address) {
         this.name = name;
-        this.address = address;
+        this.roll_num = roll_num;
         this.course = course;
         this.semester = semester;
-        this.roll_num = roll_num;
+        this.address = address;
+    }
+    public void show() {
+        System.out.println("Name of Student: "+name);
+        System.out.println("Roll number: "+roll_num);
+        System.out.println("Course: "+course);
+        System.out.println("Semester: "+semester);
+        System.out.println("Address: "+address);
     }
 }

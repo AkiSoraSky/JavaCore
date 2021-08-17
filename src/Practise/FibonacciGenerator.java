@@ -1,3 +1,5 @@
+package Practise;
+
 public class FibonacciGenerator {
     private int[] generator() {
         int[] fib = new int[10];

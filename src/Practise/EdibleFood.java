@@ -1,3 +1,5 @@
+package Practise;
+
 /**
  * interface small example
  */

@@ -1,3 +1,5 @@
+package Practise;
+
 public class MathEx1 {
     public static void main(String[] args) {
         // Local variables

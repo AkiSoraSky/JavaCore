@@ -1,3 +1,5 @@
+package Practise;
+
 public class ArmstrongNum {
     private int checkArmstrong(int number) {
         int temp, rem;

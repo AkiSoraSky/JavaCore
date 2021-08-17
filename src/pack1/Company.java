@@ -1,5 +1,7 @@
 package pack1;
 
+import java.util.Arrays;
+
 public class Company {
     public static void main(String[] args) {
         Department accounts = new Department("Accounts", "Account related works", 0);
@@ -18,12 +20,12 @@ public class Company {
         accounts.totalEmployee = 3;
 
         sales.show();
-        e1.show();
-        e2.show();
-        e3.show();
+        for (Employee employee : Arrays.asList(e1, e2, e3)) {
+            employee.show();
+        }
         accounts.show();
-        e4.show();
-        e5.show();
-        e6.show();
+        for (Employee employee : Arrays.asList(e4, e5, e6)) {
+            employee.show();
+        }
     }
 }

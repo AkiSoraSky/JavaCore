@@ -1,3 +1,5 @@
+package Practise;
+
 public class PrimeNum {
     private int primeAdd() {
         int sum = 0, count;

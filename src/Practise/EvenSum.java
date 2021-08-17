@@ -1,3 +1,5 @@
+package Practise;
+
 public class EvenSum {
     int total=0;
     public void collectEven() {

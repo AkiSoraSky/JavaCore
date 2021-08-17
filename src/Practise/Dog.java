@@ -1,3 +1,5 @@
+package Practise;
+
 /**
  * its all about practise about dogs
  */
@@ -15,7 +17,7 @@ public class Dog {
     }
 
     public void bark() {
-        System.out.println("Barking Dog: Bow wow");
+        System.out.println("Barking Practise.Dog: Bow wow");
     }
     /*
     * function for overloading
