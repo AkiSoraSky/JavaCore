@@ -1,4 +1,4 @@
-package pack2;
+package university;
 
 import java.util.Arrays;
 

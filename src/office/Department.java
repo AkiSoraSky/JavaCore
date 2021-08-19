@@ -1,4 +1,4 @@
-package pack1;
+package office;
 
 public class Department {
     public String name;

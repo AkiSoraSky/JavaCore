@@ -1,4 +1,4 @@
-package pack1;
+package office;
 
 public class Employee {
     public static final String COMPANY = "ASD Ltd";

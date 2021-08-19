@@ -1,4 +1,4 @@
-package pack2;
+package university;
 
 import java.util.Scanner;
 
@@ -30,15 +30,17 @@ public class CollegeLibrary extends Library {
     }
 
     public static void main(String[] args) {
-        CollegeLibrary cl = new CollegeLibrary("LALALALA", 20, "Sharma Ji Ka Beta");
-        cl.addBook(0, "Legion dubara aayega");
-        cl.addBook(1, "Legion dubara firse aayega");
-        cl.addBook(2, "Legion dubara aake jaega");
-        cl.addBook(3, "Legion dubara aake jaega lekin fir aayega");
-        cl.addBook(4, "Legion dubara aake jaega lekin fir aayega then fir jaega");
+        CollegeLibrary cl = new CollegeLibrary("LU", 20, "Sharma Ji Ka Beta");
+
+        cl.addBook(0, "Legion");
+        cl.addBook(1, "The Spy");
+        cl.addBook(2, "Conjuring");
+        cl.addBook(3, "Harry Potter");
+        cl.addBook(4, "Naruto");
 
         cl.showBooks();
-
-        cl.lendBook("Legion dubara aayega", 20);
+        Scanner sc = new Scanner(System.in);
+        String bookName = sc.nextLine();
+        cl.lendBook(bookName, 20);
     }
 }

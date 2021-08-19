@@ -1,4 +1,4 @@
-package pack1;
+package office;
 
 public class Util {
     public static String capitalize(String value) {
