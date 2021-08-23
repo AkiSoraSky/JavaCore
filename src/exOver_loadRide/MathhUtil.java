@@ -1,8 +1,8 @@
 package exOver_loadRide;
 
 public class MathhUtil {
-    public int[] fibonacciSeries() {
-        int[] fib = new int[10];
+    public int[] fibonacciSeries(int value) {
+        int[] fib = new int[value];
         fib [0] = 0;
         fib [1] = 1;
         for (int i = 2; i < fib.length; i++) {

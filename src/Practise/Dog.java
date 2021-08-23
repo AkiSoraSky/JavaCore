@@ -39,5 +39,15 @@ public class Dog {
         dg.print();
         dg.bark(3);
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "breed='" + breed + '\'' +
+                ", age=" + age +
+                ", color='" + color + '\'' +
+                ", dogType='" + dogType + '\'' +
+                '}';
+    }
 }
 /**/
